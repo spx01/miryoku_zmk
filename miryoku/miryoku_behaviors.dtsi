@@ -19,7 +19,9 @@
       flavor = "tap-preferred";
       bindings = <&kp>, <&kp>;
 #ifdef MIRYOKU_POSITIONAL_MODS
+#ifdef MIRYOKU_POSITIONS_RIGHT
       hold-trigger-key-positions = <MIRYOKU_POSITIONS_RIGHT>;
+#endif
 #endif
     };
     u_mtr: u_mtr {
@@ -30,7 +32,9 @@
       flavor = "tap-preferred";
       bindings = <&kp>, <&kp>;
 #ifdef MIRYOKU_POSITIONAL_MODS
+#ifdef MIRYOKU_POSITIONS_LEFT
       hold-trigger-key-positions = <MIRYOKU_POSITIONS_LEFT>;
+#endif
 #endif
     };
     u_lt: u_lt {
