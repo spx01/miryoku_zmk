@@ -60,9 +60,9 @@ XXX, XXX, XXX, XXX, XXX,     U_NA, U_NA,              U_NA,              U_NP,  
 
 
 #define MIRYOKU_LAYER_RHALF \
-U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,      XXX, XXX, XXX, XXX, XXX \
-&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,      XXX, XXX, XXX, XXX, XXX \
-U_NA,              &kp RALT,          U_NA,              U_NA,              U_NA,      XXX, XXX, XXX, XXX, XXX \
+U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,      XXX, XXX, XXX, XXX, XXX, \
+&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,      XXX, XXX, XXX, XXX, XXX, \
+U_NA,              &kp RALT,          U_NA,              U_NA,              U_NA,      XXX, XXX, XXX, XXX, XXX, \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,      XXX, XXX, XXX, XXX, XXX
 
 #if defined MIRYOKU_MAPPING_EXTENDED_THUMBS
