@@ -49,12 +49,22 @@ MIRYOKU_X(FUN,    "Fun") \
 MIRYOKU_X(SYM2,   "Sym2")
 
 #define MIRYOKU_LAYERMAPPING_SYM2 MIRYOKU_MAPPING
-#define U_SYM2 10
+#define U_BASE   0
+#define U_EXTRA  1
+#define U_TAP    2
+#define U_BUTTON 3
+#define U_NAV    4
+#define U_MOUSE  5
+#define U_MEDIA  6
+#define U_NUM    7
+#define U_SYM    8
+#define U_FUN    9
+#define U_SYM2   10
 
 #define MIRYOKU_LAYER_SYM2 \
-U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_NA,              &kp EQUAL,         &kp PLUS,          &kp MINUS,         U_NA,             \
-&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              U_NA,              &kp LBKT,          &kp LPAR,          &kp RPAR,          &kp RBKT,         \
-U_NA,              &kp RALT,          &u_to_U_SYM,       &u_to_U_SYM2,      U_NA,              &kp INS,           &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,          \
+U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_NA,              &kp MINUS,         &kp EQUAL,         &kp PLUS,          U_NA,           \
+&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &u_caps_word,      &kp LBKT,          &kp LPAR,          &kp RPAR,          &kp RBKT,       \
+U_NA,              &kp RALT,          &u_to_U_SYM,       &u_to_U_SYM2,      U_NA,              &kp INS,           &kp HASH,          &kp TILDE,         U_NA,              U_NA,           \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 #define MIRYOKU_LAYER_BASE \
