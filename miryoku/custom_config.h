@@ -41,9 +41,9 @@ MIRYOKU_X(RHALF,  "RHalf")
 #define MIRYOKU_LAYERMAPPING_RHALF MIRYOKU_MAPPING
 
 #define MIRYOKU_LAYER_SYM2 \
-U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_NA,              &kp MINUS,         &kp EQUAL,         &kp PLUS,          U_NA,           \
-&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &u_caps_word,      &kp LBKT,          &kp LPAR,          &kp RPAR,          &kp RBKT,       \
-U_NA,              &kp RALT,          &u_to_U_SYM,       &u_to_U_SYM2,      U_NA,              &kp INS,           &kp HASH,          &kp TILDE,         U_NA,              U_NA,           \
+U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_NA,              U_NA,              &kp EQUAL,         &kp MINUS,         U_NA,           \
+&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              U_NA,              &kp LBKT,          &kp LPAR,          &kp RPAR,          &kp RBKT,       \
+U_NA,              &kp RALT,          &u_to_U_SYM,       &u_to_U_SYM2,      U_NA,              &kp INS,           U_NA,              &kp GRAVE,         &kp HASH,          U_NA,           \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 #define MIRYOKU_LAYER_BASE \
