@@ -53,17 +53,17 @@ U_LT(U_BUTTON, Z), U_MTL(RALT, X),    &kp C,              &kp D,             &kp
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC), U_LT(U_NAV, SPC),  U_LT(U_SYM2, TAB),  U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 #define MIRYOKU_LAYER_LHALF \
-XXX, XXX, XXX, XXX, XXX,     U_NA, &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
-XXX, XXX, XXX, XXX, XXX,     U_NA, &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
-XXX, XXX, XXX, XXX, XXX,     U_NA,  U_NA,             U_NA,              &kp RALT,          U_NA,              \
-XXX, XXX, XXX, XXX, XXX,     U_NA, U_NA,              U_NA,              U_NP,              U_NP
+&trans, &trans, &trans, &trans, &trans,     U_NA, &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
+&trans, &trans, &trans, &trans, &trans,     U_NA, &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
+&trans, &trans, &trans, &trans, &trans,     U_NA,  U_NA,             U_NA,              &kp RALT,          U_NA,              \
+&trans, &trans, &trans, &trans, &trans,     U_NA, U_NA,              U_NA,              U_NP,              U_NP
 
 
 #define MIRYOKU_LAYER_RHALF \
-U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,      XXX, XXX, XXX, XXX, XXX, \
-&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,      XXX, XXX, XXX, XXX, XXX, \
-U_NA,              &kp RALT,          U_NA,              U_NA,              U_NA,      XXX, XXX, XXX, XXX, XXX, \
-U_NP,              U_NP,              U_NA,              U_NA,              U_NA,      XXX, XXX, XXX, XXX, XXX
+U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,      &trans, &trans, &trans, &trans, &trans, \
+&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,      &trans, &trans, &trans, &trans, &trans, \
+U_NA,              &kp RALT,          U_NA,              U_NA,              U_NA,      &trans, &trans, &trans, &trans, &trans, \
+U_NP,              U_NP,              U_NA,              U_NA,              U_NA,      &trans, &trans, &trans, &trans, &trans
 
 #if defined MIRYOKU_MAPPING_EXTENDED_THUMBS
 #define MIRYOKU_LAYOUTMAPPING_KYRIA(\
