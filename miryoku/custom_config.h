@@ -42,9 +42,22 @@ MIRYOKU_X(RHALF,  "RHalf")
 
 #define MIRYOKU_LAYER_SYM2 \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_NA,              U_NA,              &kp EQUAL,         &kp MINUS,         U_NA,           \
-&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              U_NA,              &kp LBKT,          &kp LPAR,          &kp RPAR,          &kp RBKT,       \
-U_NA,              &kp RALT,          &u_to_U_SYM,       &u_to_U_SYM2,      U_NA,              &kp INS,           &kp TILDE,         &kp GRAVE,         &kp HASH,          &kp SLASH,      \
+&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp LBRC,          &kp LBKT,          &kp LPAR,          &kp RPAR,          &kp RBKT,       \
+U_NA,              &kp RALT,          &u_to_U_SYM,       &u_to_U_SYM2,      U_NA,              U_NA,              &kp TILDE,         &kp GRAVE,         &kp HASH,          &kp SLASH,      \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+
+#if defined (MIRYOKU_KEYBOARD_KYRIA_REV2)
+#define MIRYOKU_LAYERMAPPING_SYM2(\
+     K00, K01, K02, K03, K04,                          K05, K06, K07, K08, K09, \
+     K10, K11, K12, K13, K14,                          K15, K16, K17, K18, K19, \
+     K20, K21, K22, K23, K24,                          K25, K26, K27, K28, K29, \
+     N30, N31, K32, K33, K34,                          K35, K36, K37, N38, N39 \
+)\
+XXX  K00  K01  K02  K03  K04                                          K05  K06  K07  K08  K09  XXX  \
+&kp SEMI  K10  K11  K12  K13  K14                                     K15  K16  K17  K18  K19  &kp RBRC  \
+XXX  K20  K21  K22  K23  K24  XXX  XXX                           XXX  XXX  K25  K26  K27  K28  K29  XXX  \
+               XXX  K32  K33  K34  &mo U_RHALF      &mo U_LHALF  K35  K36  K37  XXX
+#endif
 
 #define MIRYOKU_LAYER_BASE \
 &kp Q,             &kp W,             &kp F,              &kp P,             &kp B,              &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,              \
