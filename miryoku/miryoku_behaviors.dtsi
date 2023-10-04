@@ -3,6 +3,14 @@
 
 / {
   behaviors {
+    spacezero: spacezero {
+      compatible = "zmk,behavior-mod-morph";
+      label = "spacezero";
+      #binding-cells = <0>;
+      bindings = <&kp SPACE>, <&kp NUM_0>;
+      mods = <(MOD_LSFT)>;
+      keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_RGUI|MOD_LGUI)>;
+    };
     u_mt: u_mt {
       compatible = "zmk,behavior-hold-tap";
       label = "u_mt";
