@@ -3,11 +3,11 @@
 
 / {
   behaviors {
-    spacezero: spacezero {
+    zerospace: zerospace {
       compatible = "zmk,behavior-mod-morph";
-      label = "spacezero";
+      label = "zerospace";
       #binding-cells = <0>;
-      bindings = <&kp SPACE>, <&kp NUM_0>;
+      bindings = <&kp NUM_0>, <&kp SPACE>;
       mods = <(MOD_LSFT)>;
       keep-mods = <(MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT|MOD_RGUI|MOD_LGUI)>;
     };
