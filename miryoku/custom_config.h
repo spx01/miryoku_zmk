@@ -46,7 +46,7 @@ U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA
 U_NA,              &kp RALT,          &u_to_U_SYM,       &u_to_U_SYM2,      U_NA,              U_NA,              &kp TILDE,         &kp GRAVE,         &kp HASH,          &kp SLASH,      \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
-#define XLEFTTOP XXX
+#define XLEFTTOP &kp LA(TAB)
 #define XLEFTMID &kp SEMI
 #define XLEFTBOT XXX
 #define XRIGHTTOP &kp MINUS
